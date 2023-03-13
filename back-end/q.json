@@ -1,0 +1,13 @@
+{
+    "web": {
+        "client_id": "254016699632-gf28kgh98ca3srnja327gvrsmi504pso.apps.googleusercontent.com",
+        "project_id": "propane-net-337219",
+        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        "token_uri": "https://oauth2.googleapis.com/token",
+        "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+        "client_secret": "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",
+        "redirect_uris": [
+            "http://localhost:5000/api/oauth2callback"
+        ]
+    }
+}

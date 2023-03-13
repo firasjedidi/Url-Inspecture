@@ -1,0 +1,46 @@
+{
+  "name": "url-inspecter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "export": "next export",
+    "lint": "next lint",
+    "server": "nodemon back-end/index.js"
+  },
+  "dependencies": {
+    "@next/font": "13.1.6",
+    "axios": "^1.3.2",
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "date-fns": "^2.29.3",
+    "dotenv": "^16.0.3",
+    "eslint": "8.33.0",
+    "eslint-config-next": "13.1.6",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "googleapis": "^110.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.1.2",
+    "next": "13.1.6",
+    "node-cron": "^3.0.2",
+    "nodemon": "^2.0.20",
+    "react": "^18.2.0",
+    "react-data-table-component": "^7.5.3",
+    "react-date-range": "^1.4.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1",
+    "sequelize": "^6.28.0",
+    "table2excel": "^1.0.4",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.19.2/xlsx-0.19.2.tgz"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4"
+  }
+}
